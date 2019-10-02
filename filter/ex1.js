@@ -2,7 +2,7 @@
 
 Ecrire une fonction getPositiveNumbers qui reçoit comme un argument un tableau de nombres.
 En utilisant filter, cette fonction doit renvoyer un tableau ne contenant que des nombres
-positifs ou nuls.
+positifs ou nuls. 
 
 Exemple de tableau d'entrée:
   [7, -4, 2, 0, -10, 3, 11]
@@ -12,6 +12,7 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  return numbers.filter(number => number >= 0);
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
